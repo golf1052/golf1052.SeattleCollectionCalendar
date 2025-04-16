@@ -3,6 +3,18 @@
   <PropertyGroup>
     <TargetFramework>netstandard2.1</TargetFramework>
     <Nullable>enable</Nullable>
+    <Title>golf1052.SeattleCollectionCalendar</Title>
+    <Authors>golf1052</Authors>
+    <Version>1.0.0</Version>
+    <Description>A library for getting the Seattle solid waste calendar for addresses in Seattle</Description>
+    <PackageProjectUrl>https://github.com/golf1052/golf1052.SeattleCollectionCalendar</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/golf1052/golf1052.SeattleCollectionCalendar</RepositoryUrl>
+    <PackageTags>seattle collection-calendar</PackageTags>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PublishRepositoryUrl>true</PublishRepositoryUrl>
+    <EmbedUntrackedSources>true</EmbedUntrackedSources>
+    <IncludeSymbols>true</IncludeSymbols>
+    <SymbolPackageFormat>snupkg</SymbolPackageFormat>
   </PropertyGroup>
 
   <ItemGroup>
