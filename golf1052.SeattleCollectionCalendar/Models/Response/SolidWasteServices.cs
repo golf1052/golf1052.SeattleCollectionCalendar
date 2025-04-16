@@ -22,9 +22,9 @@ namespace golf1052.SeattleCollectionCalendar.Models.Response
 
             return Services.Where(s => solidWasteType switch
                 {
-                    SolidWasteType.Garbage => "Garbage".Equals(s.Description, StringComparison.CurrentCultureIgnoreCase),
-                    SolidWasteType.Recycle => "Recycle".Equals(s.Description, StringComparison.CurrentCultureIgnoreCase),
-                    SolidWasteType.FoodYardWaste => "Food/Yard Waste".Equals(s.Description, StringComparison.CurrentCultureIgnoreCase),
+                    SolidWasteType.Garbage => "Garbage".Equals(s.Description, StringComparison.InvariantCultureIgnoreCase),
+                    SolidWasteType.Recycle => "Recycle".Equals(s.Description, StringComparison.InvariantCultureIgnoreCase),
+                    SolidWasteType.FoodYardWaste => "Food/Yard Waste".Equals(s.Description, StringComparison.InvariantCultureIgnoreCase),
                     _ => false
                 })
                 .ToList();
